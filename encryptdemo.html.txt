@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Encrypt Demo</title>
+<script language="JavaScript" src="encrypt.js"></script>
+<script>
+function run() {
+    var e = new Encrypt();
+    var d = document.getElementById("display");
+    d.innerHTML += e.showCode() + "<br / >";
+    var s1 = "There is no spoon.";
+    d.innerHTML += "input: "+ s1 + "<br / >";
+    var s2 = e.toEncode(s1);
+    d.innerHTML += "encode: " + s2 + "<br / >";
+    var s3 = e.toDecode(s2);
+    d.innerHTML += "decode: " + s3 + "<br / >";
+}
+</script>
+</head>
+<body onload="run()">
+<div id="display"></div>
+</body>
+ 
+<!-- 《程式語言教學誌》的範例程式
+      http://pydoing.blogspot.com/
+      檔名：encryptdemo.html
+      功能：示範 JavaScript 程式
+      作者：張凱慶
+      時間：西元 2012 年 12 月 -->

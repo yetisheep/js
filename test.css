@@ -1,0 +1,55 @@
+#title {
+    border: 50px blue;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+}
+ 
+#main {
+    border: 500px blue;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+ 
+#display {
+    border: 10px dashed black;
+	background: gray;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+	text-align: center;
+}
+ 
+ #trid{
+	 background: red;
+	 position: middle;
+	 text-align: center;
+ }
+  #btn{
+	 background: green;
+	 /*position: middle;*/
+	 text-align: center;
+ }
+  #errmsg{
+	 
+	 /*position: middle;*/
+	 text-align: center;
+ }
+input {
+    margin: 2px;
+}
+ 
+/* 《程式語言教學誌》的範例程式
+   http://pydoing.blogspot.com/
+   檔名：encode_sofeware.css
+   功能：示範 JavaScript 程式
+   作者：張凱慶
+   時間：西元 2012 年 12 月 */

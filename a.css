@@ -1,0 +1,37 @@
+#output {
+  max-width: 600px;
+  margin: 0 auto; 
+  /*background: orange;*/
+  font-size: 160px;
+}
+.btn {
+  font-size: 160px;
+}
+.btn-danger {
+  background: maroon;
+}
+.btn-success {
+  background: green;
+}
+
+div {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+table,
+th,
+td {
+  border: 1px solid #cecfd5;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+
+
